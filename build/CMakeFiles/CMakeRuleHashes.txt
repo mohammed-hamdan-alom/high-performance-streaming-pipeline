@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+13b8300ce97b97791ffcb039bfa3bd23 market_data.pb.h

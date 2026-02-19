@@ -1,0 +1,5 @@
+/home/hamdan/projects/real-time-market-aggregator/build/CMakeFiles/producer.dir
+/home/hamdan/projects/real-time-market-aggregator/build/CMakeFiles/aggregator.dir
+/home/hamdan/projects/real-time-market-aggregator/build/CMakeFiles/snapshot_api.dir
+/home/hamdan/projects/real-time-market-aggregator/build/CMakeFiles/edit_cache.dir
+/home/hamdan/projects/real-time-market-aggregator/build/CMakeFiles/rebuild_cache.dir

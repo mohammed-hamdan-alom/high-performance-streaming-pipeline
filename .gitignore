@@ -1,0 +1,248 @@
+# ============================================
+# C++ Build Artifacts
+# ============================================
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+producer
+aggregator
+consumer
+
+# ============================================
+# CMake
+# ============================================
+
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+*.cmake
+!CMakeLists.txt
+
+# ============================================
+# Protocol Buffers Generated Files
+# ============================================
+
+# Generated protobuf files (if auto-generated)
+*.pb.cc
+*.pb.h
+# Keep these if you commit generated files:
+# !market_data.pb.cc
+# !market_data.pb.h
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+*.iml
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Docker / Containers
+# ============================================
+
+# Docker volumes (local data)
+docker-data/
+.docker/
+
+# Docker Compose override files (for local dev)
+docker-compose.override.yml
+
+# ============================================
+# System Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Logs and Runtime Data
+# ============================================
+
+# Application logs
+*.log
+logs/
+
+# Core dumps
+core
+core.*
+
+# PID files
+*.pid
+
+# ============================================
+# Dependencies / Package Managers
+# ============================================
+
+# Conan
+conanfile.txt.user
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+
+# vcpkg
+vcpkg_installed/
+
+# ============================================
+# Testing
+# ============================================
+
+# Test results
+Testing/
+CTestTestfile.cmake
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+*.coverage
+
+# ============================================
+# Documentation
+# ============================================
+
+# Generated docs
+docs/_build/
+docs/.doctrees/
+html/
+latex/
+
+# Doxygen
+doxygen_output/
+
+# ============================================
+# Temporary Files
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Patch files
+*.orig
+*.rej
+
+# ============================================
+# Environment / Configuration
+# ============================================
+
+# Environment variables (if you add them later)
+.env
+.env.local
+.env.*.local
+
+# Local configuration overrides
+config.local.*
+secrets/
+
+# ============================================
+# Database Dumps / Data Files
+# ============================================
+
+# Database exports (if you add them)
+*.sql
+*.db
+*.sqlite
+*.dump
+
+# Large data files
+data/
+*.csv
+*.json
+# Keep small sample files:
+!sample_data.json
+
+# ============================================
+# Grafana
+# ============================================
+
+# Grafana data (if running locally)
+grafana-data/
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Any local test scripts you create
+test_local.sh
+run_local.sh
+
+# Performance profiling outputs
+*.perf
+perf.data
+perf.data.old
+
+# Valgrind outputs
+valgrind-*.log

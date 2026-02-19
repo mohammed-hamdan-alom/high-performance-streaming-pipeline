@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RealTimeMarketAggregator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aggregator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aggregator-3bea70197517a480b8f6.json",
+					"name" : "aggregator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "producer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-producer-3690132c10a6e46302cd.json",
+					"name" : "producer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapshot_api::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapshot_api-eee9ea808fa0fefc4e0a.json",
+					"name" : "snapshot_api",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hamdan/projects/real-time-market-aggregator/build",
+		"source" : "/home/hamdan/projects/real-time-market-aggregator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

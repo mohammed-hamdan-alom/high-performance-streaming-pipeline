@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package marketdata;
+
+message MarketUpdate {
+    string ticker = 1;
+    double price = 2;
+    int64 volume = 3;
+    int64 timestamp_ns = 4;
+}

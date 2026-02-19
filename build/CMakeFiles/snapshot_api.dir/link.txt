@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/snapshot_api.dir/cmd/snapshot/main.cpp.o -o snapshot_api  /usr/lib/x86_64-linux-gnu/libhiredis.so 
