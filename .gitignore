@@ -35,6 +35,7 @@ consumer
 # CMake
 # ============================================
 
+build
 build/
 cmake-build-*/
 CMakeCache.txt
