@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/aggregator.dir/cmd/aggregator/main.cpp.o CMakeFiles/aggregator.dir/market_data.pb.cc.o -o aggregator  /usr/lib/x86_64-linux-gnu/libprotobuf.so /usr/lib/x86_64-linux-gnu/librdkafka.so /usr/lib/x86_64-linux-gnu/libhiredis.so /usr/lib/x86_64-linux-gnu/libpq.so 

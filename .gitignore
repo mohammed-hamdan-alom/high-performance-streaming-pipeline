@@ -247,3 +247,4 @@ perf.data.old
 
 # Valgrind outputs
 valgrind-*.log
+build/
